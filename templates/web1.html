@@ -1,0 +1,20 @@
+<!doctype html>
+
+<html>
+	<head>
+		<title>Moja stronka</title>
+	<link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+	</head>
+	<body>
+		<h1 ><strong>Witam na mojej stronie domowej</strong>
+		<br>
+		<img src="{{url_for('static',filename='logo.jpg')}}" alt="To ja ;)" width=100px height=140px>
+		</h1>
+		
+		<h2>O mnie</h2>
+		<p><strong>imię:</strong> Anna
+		<br>
+		<strong>nazwisko:</strong> Makuch
+		</p>
+	</body>
+</html>

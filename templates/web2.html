@@ -1,0 +1,27 @@
+<!doctype html>
+
+<html>
+	<head>
+		<title>Moja stronka</title>
+	<link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+	</head>
+	<body>
+		<h1 ><strong>Witam na mojej stronie domowej</strong>
+		<br>
+		<img src="{{url_for('static',filename='logo.jpg')}}" alt="To ja ;)" width=100px height=140px>
+		</h1>
+		
+		<h2>Kontakt</h2>
+		<ul>
+			<li>email: azdtghnbth@gmail.com
+			<li>telefon:06746354687
+		</ul>
+		<h3>Wyślij wiadomość</h3>
+		
+		<form action="" method="POST">
+                    <textarea name="message" rows="3" cols="20"></textarea>
+                    <input type="submit"/>
+                </form>
+	
+	</body>
+</html>
